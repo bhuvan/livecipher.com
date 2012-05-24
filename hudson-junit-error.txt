@@ -1,0 +1,149 @@
+
+  FailedConsole Output
+
+View as plain text <consoleText>
+
+Started by user bhuvan
+Building remotely on lucene.zones.apache.org (Solaris 10)
+Updating https://svn.apache.org/repos/asf/subversion/branches/1.6.x
+At revision 886100
+no change for https://svn.apache.org/repos/asf/subversion/branches/1.6.x since the previous build
+BUILD_ID=2009-12-02_10-17-18
+BUILD_NUMBER=16
+BUILD_TAG=hudson-subversion-1.6.x-solaris-16
+BUILD_URL=http://hudson.zones.apache.org/hudson/job/subversion-1.6.x-solaris/16/
+EXECUTOR_NUMBER=0
+HOME=/export/home/hudson
+HUDSON_COOKIE=8e23d9b2-b40d-481b-bc14-150112c95323
+HUDSON_HOME=/export/home/hudson/hudson
+HUDSON_URL=http://hudson.zones.apache.org/hudson/
+IFS= 	
+
+JOB_NAME=subversion-1.6.x-solaris
+JOB_URL=http://hudson.zones.apache.org/hudson/job/subversion-1.6.x-solaris/
+LD_LIBRARY_PATH=/export/home/hudson/tools/java/jdk1.6.0_03/jre/lib/i386/server:/export/home/hudson/tools/java/jdk1.6.0_03/jre/lib/i386:/export/home/hudson/tools/java/jdk1.6.0_03/jre/../lib/i386
+LOGNAME=hudson
+MAIL=/var/mail//hudson
+MAILCHECK=600
+NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat
+NODE_NAME=lucene.zones.apache.org (Solaris 10)
+OPTIND=1
+PATH=/usr/bin
+PWD=/export/home/hudson
+SHELL=/usr/bin/bash
+SHLVL=1
+SSH_CLIENT=140.211.11.106 40154 22
+SSH_CONNECTION=140.211.11.106 40154 140.211.11.75 22
+SVN_REVISION=884850
+TZ=GMT0
+USER=hudson
+WORKSPACE=/export/home/hudson/hudson-slave/workspace/subversion-1.6.x-solaris
+XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt
+_=/export/home/hudson/tools/java/latest/bin/java
+Running all tests in prop_tests.py [1/1]...FAILURE
+At least one test FAILED, checking /export/home/hudson/hudson-slave/workspace/subversion-1.6.x-solaris/subversion-1.6.x/tests.log
+FAIL:  prop_tests.py 22: test prop* handle invalid property names
+Summary of test results:
+  1 tests FAILED
+*** Error code 1
+The following command caused the error:
+if test "/usr/bin/python" != "none"; then                                 \
+  flags="--verbose";                                                 \
+  if test "" != ""; then                                   \
+    flags="--cleanup $flags";                                       \
+  fi;                                                                \
+  if test "" != ""; then                                  \
+    flags="--url  $flags";                               \
+  fi;                                                                \
+  if test "" != ""; then                                   \
+    flags="--fs-type  $flags";                            \
+  fi;                                                                \
+  if test "" != ""; then                              \
+    flags="--http-library  $flags";                  \
+  fi;                                                                \
+  if test "" != ""; then                      \
+    flags="--server-minor-version  $flags";  \
+  fi;                                                                \
+  if test "" != ""; then                               \
+    flags="--enable-sasl $flags";                                   \
+  fi;                                                                \
+  if test "" != ""; then                             \
+    flags="--fsfs-sharding  $flags";                \
+  fi;                                                                \
+  if test "" != ""; then                              \
+    flags="--fsfs-packing $flags";                                  \
+  fi;                                                                \
+  if test "" != ""; then                                  \
+    flags="--parallel $flags";                                      \
+  fi;                                                                \
+  /usr/bin/python ./build/run_tests.py                         \
+            --config-file ./subversion/tests/tests.conf  \
+            $flags                                                  \
+            '/export/home/hudson/hudson-slave/workspace/subversion-1.6.x-solaris/subversion-1.6.x' '/export/home/hudson/hudson-slave/workspace/subversion-1.6.x-solaris/subversion-1.6.x' subversion/tests/cmdline/prop_tests.py;              \
+else                                                                 \
+  echo "make check: Python 2.4 or greater is required,";             \
+  echo "            but was not detected during configure";          \
+  exit 1;                                                            \
+fi;
+make: Fatal error: Command failed for target `check'
+Generating junit files ...
+Recording test results
+ERROR: Failed to archive test reports
+hudson.util.IOException2: remote file operation failed
+	at hudson.FilePath.act(FilePath.java:672)
+	at hudson.FilePath.act(FilePath.java:660)
+	at hudson.tasks.junit.JUnitResultArchiver.perform(JUnitResultArchiver.java:117)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:19)
+	at hudson.model.AbstractBuild$AbstractRunner.perform(AbstractBuild.java:480)
+	at hudson.model.AbstractBuild$AbstractRunner.performAllBuildStep(AbstractBuild.java:466)
+	at hudson.model.AbstractBuild$AbstractRunner.performAllBuildStep(AbstractBuild.java:454)
+	at hudson.model.Build$RunnerImpl.post2(Build.java:181)
+	at hudson.model.AbstractBuild$AbstractRunner.post(AbstractBuild.java:438)
+	at hudson.model.Run.run(Run.java:1143)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:46)
+	at hudson.model.ResourceController.execute(ResourceController.java:88)
+	at hudson.model.Executor.run(Executor.java:123)
+Caused by: hudson.util.IOException2: Failed to read /export/home/hudson/hudson-slave/workspace/subversion-1.6.x-solaris/subversion-1.6.x/build/junit-reports/prop_tests.py.junit.xml
+	at hudson.tasks.junit.TestResult.parse(TestResult.java:195)
+	at hudson.tasks.junit.TestResult.parse(TestResult.java:136)
+	at hudson.tasks.junit.TestResult.<init>(TestResult.java:99)
+	at hudson.tasks.junit.JUnitResultArchiver$ParseResultCallable.invoke(JUnitResultArchiver.java:230)
+	at hudson.tasks.junit.JUnitResultArchiver$ParseResultCallable.invoke(JUnitResultArchiver.java:205)
+	at hudson.FilePath$FileCallableWrapper.call(FilePath.java:2052)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:69)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:23)
+	at hudson.remoting.Request$2.run(Request.java:200)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:885)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:907)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: org.dom4j.DocumentException: Error on line 50 of document file:///export/home/hudson/hudson-slave/workspace/subversion-1.6.x-solaris/subversion-1.6.x/build/junit-reports/prop_tests.py.junit.xml : An invalid XML character (Unicode: 0x8) was found in the CDATA section. Nested exception: An invalid XML character (Unicode: 0x8) was found in the CDATA section.
+	at org.dom4j.io.SAXReader.read(SAXReader.java:482)
+	at org.dom4j.io.SAXReader.read(SAXReader.java:264)
+	at hudson.tasks.junit.SuiteResult.parse(SuiteResult.java:93)
+	at hudson.tasks.junit.TestResult.parse(TestResult.java:180)
+	... 14 more
+Caused by: org.xml.sax.SAXParseException: An invalid XML character (Unicode: 0x8) was found in the CDATA section.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:195)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:174)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:388)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1411)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanCDATASection(XMLDocumentFragmentScannerImpl.java:1680)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2970)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:645)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:140)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:508)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:807)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:737)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:107)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1205)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at org.dom4j.io.SAXReader.read(SAXReader.java:465)
+	... 17 more
+Finished: FAILURE
+
+Page generated: Dec 2, 2009 2:34:52 PM Hudson ver. 1.327
+<http://hudson.dev.java.net/>
+

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>My CEE CUBIT Hosts RSS Feed</title>
+    <generator>CollabNet CUBIT</generator>
+    <ttl>60</ttl>
+    <link>https://sc54.sjc.collab.net</link>
+    <description>The CEE CUBIT grue hosts feed</description>
+    <lastBuildDate>Mon, 21 Aug 2006 23:57:02 PDT</lastBuildDate>
+    <language>en-us</language>
+    <item>
+        <title>Project: helm_project; Host: cu011.dev.cubitdemo.net</title>
+        <link>https://sc29.sjc.collab.net/cubit/Hosts/cu011.dev.cubitdemo.net</link>
+        <guid>https://sc29.sjc.collab.net/cubit/Hosts/cu011.dev.cubitdemo.net</guid>
+        <pubDate>host_state_mtime</pubDate>
+        <author>host_owner</author>
+        <description>
+        State: Allocated
+        Status: Up
+        Description: host desc
+        CUBIT project: zork</description>
+    </item>
+    <item>
+        <title>Project: helm_project; Host: cu012.dev.cubitdemo.net</title>
+        <link>https://sc29.sjc.collab.net/cubit/Hosts/cu012.dev.cubitdemo.net</link>
+        <guid>https://sc29.sjc.collab.net/cubit/Hosts/cu012.dev.cubitdemo.net</guid>
+        <pubDate>host_state_mtime</pubDate>
+        <author>host_owner</author>
+        <description>
+        State: Allocated
+        Status: Up
+        Description: host desc
+        CUBIT project: zork</description>
+    </item>
+    <item>
+        <title>Project: helm_project; Host: cu013.dev.cubitdemo.net</title>
+        <link>https://sc29.sjc.collab.net/cubit/Hosts/cu013.dev.cubitdemo.net</link>
+        <guid>https://sc29.sjc.collab.net/cubit/Hosts/cu013.dev.cubitdemo.net</guid>
+        <pubDate>host_state_mtime</pubDate>
+        <author>host_owner</author>
+        <description>
+        State: Allocated
+        Status: Up
+        Description: host desc
+        CUBIT project: zork</description>
+    </item>
+    <item>
+        <title>Project: helm_project; Host: cu014.dev.cubitdemo.net</title>
+        <link>https://sc29.sjc.collab.net/cubit/Hosts/cu014.dev.cubitdemo.net</link>
+        <guid>https://sc29.sjc.collab.net/cubit/Hosts/cu014.dev.cubitdemo.net</guid>
+        <pubDate>host_state_mtime</pubDate>
+        <author>host_owner</author>
+        <description>
+        State: Allocated
+        Status: Up
+        Description: host desc
+        CUBIT project: zork</description>
+    </item>
+    <item>
+        <title>Project: helm_project; Host: cu015.dev.cubitdemo.net</title>
+        <link>https://sc29.sjc.collab.net/cubit/Hosts/cu015.dev.cubitdemo.net</link>
+        <guid>https://sc29.sjc.collab.net/cubit/Hosts/cu015.dev.cubitdemo.net</guid>
+        <pubDate>host_state_mtime</pubDate>
+        <author>host_owner</author>
+        <description>
+        State: Allocated
+        Status: Up
+        Description: host desc
+        CUBIT project: zork</description>
+    </item>
+  </channel>
+</rss>

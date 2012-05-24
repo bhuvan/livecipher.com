@@ -1,0 +1,80 @@
+body {
+	background-color : #ffffff;
+	color : #000000;
+	font-family : serif,fantasy;
+	margin : 0;
+}
+
+tr.dark-border {
+	background-color : darkturquoise;
+}
+
+td.header-top-left {
+	background-color : darkturquoise;
+	color : #ffffff;
+	font-size : 200%;
+	font-weight : bold;
+}
+
+td.header-top-right {
+	background-color : darkturquoise;
+	color : #ffffff;
+	font-size : 150%;
+}
+
+td.header-bottom-left {
+	background-color : #ffffdd;
+	color : #000000;
+	font-size : 120%;
+	font-weight : bold;
+}
+
+td.header-bottom-right {
+	background-color : #ffffdd;
+	color : #000000;
+	font-size : 120%;
+}
+
+td.title {
+	background-color : darkturquoise;
+	color : #ffffff;
+	font-size : 100%;
+	font-weight : bold;
+}
+
+td.content {
+	background-color : #ffffdd;
+	color : #000000;
+	font-size : 100%;
+}
+
+td.menu {
+	background-color : #ffffdd;
+	color : #000000;
+	font-size : 100%;
+}
+
+td.menu:hover {
+	background-color : darkturquoise;
+	color : #ffffff;
+	font-size : 100%;
+}
+
+td.selected {
+	background-color : darkturquoise;
+	color : #ffffff;
+	font-size : 100%;
+}
+
+
+a.modern {
+	color : #000000;
+	font-weight : bold;
+	text-decoration : none;
+}
+
+a.modern:hover {
+	color : #ffffff;
+	font-weight : bold;
+	text-decoration : none;
+}

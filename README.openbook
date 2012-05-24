@@ -1,0 +1,12 @@
+
+Thu Dec 22 00:52:10 PST 2005
+----------------------------
+
+Due to spam i have disabled the guestbook. To enable, run the following 
+commands:
+
+$ cp guest.php.working guest.php
+$ mv openbook.working openbook
+
+Regards,
+Bhuvaneswaran

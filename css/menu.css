@@ -1,0 +1,46 @@
+#navcontainer
+{
+	margin-top: 35px;
+}
+
+ul#navlist
+{
+	width: 164px;
+	padding: 0px;
+	margin: 0px;
+}
+
+ul#navlist li
+{
+	border: 0px none;
+	
+	list-style-type:none;
+}
+
+ul#navlist li a
+{
+	display: block;
+	width: 110px;
+	padding: 4px 15px;
+	border-left: 20px solid #E7F1DC;
+	background: #FFF;
+	text-decoration: none;
+}
+
+ul#navlist li a:link
+{
+	color: #666677;
+}
+
+div#navcontainer li a:visited
+{
+	color: #666677;
+}
+
+ul#navlist li a:hover
+{
+	border-color: #86B854;
+	color: #000;
+	background: #E9F2DF;
+}
+/* css change */
