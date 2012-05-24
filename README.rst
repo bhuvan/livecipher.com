@@ -1,4 +1,9 @@
+==============
+livecipher.com
+==============
+
 The source code for my website, http://livecipher.com/. It include,
+
   a) photo gallery
   b) html pages
   c) wordpress backed blog (unused)
